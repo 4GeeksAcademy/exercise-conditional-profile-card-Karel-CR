@@ -1,6 +1,9 @@
 .filters {
-  background: white;
-  width: 100%;
+  background: lightgray;
+  width: 97%;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 .filters li {
   display: inline-block;
@@ -14,9 +17,12 @@
 }
 .filters li input {
   width: 100%;
+  border-radius: 5px;
 }
 .filters li select {
   width: 100%;
+  border-radius: 5px;
+  background-color: whitesmoke;
 }
 .widget {
   position: relative;
@@ -25,7 +31,7 @@
   margin: 50px auto;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 25px rgba(255, 253, 253, 0.1);
 }
 .widget .cover {
   height: 160px;
@@ -73,10 +79,10 @@
   background: #2cdfd3;
 }
 .widget ul.position-left {
-  left: -26px;
+  left: -28px;
 }
 .widget ul.position-right {
-  right: -27px;
+  right: -28px;
 }
 .widget ul li {
   list-style: none;
